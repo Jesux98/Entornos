@@ -1,0 +1,19 @@
+import java.util.Random;
+
+public class ProgramaAleatorio {
+    public static void main(String[] args) {
+        Random rand = new Random();
+        int numeroAleatorio = rand.nextInt(100) + 1;
+        System.out.println("El número aleatorio es: " + numeroAleatorio);
+    Scanner scanner = new Scanner(System.in);
+
+        // Pide al usuario que ingrese una frase
+        System.out.print("Escribe una frase: ");
+        String frase = scanner.nextLine();
+
+        // Imprime la frase en mayúscula y minúscula
+        System.out.println("Frase en mayúscula: " + frase.toUpperCase());
+        System.out.println("Frase en minúscula: " + frase.toLowerCase());
+    }
+}
+
